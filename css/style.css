@@ -74,6 +74,7 @@ form h2{
     width: 0;
     height: 2px;
     background-color: #6C63FF;
+    
 }
 
 .input-div:after{
@@ -94,11 +95,10 @@ form h2{
 }
 
 .input-div.focus:after, .input-div.focus:before{
-    width:50%;
+    width: 50%;
 }
-
 .input-div.one{
-    margin-top:0;
+    margin-top: 0;
 }
 
 .input-div.two{
@@ -113,6 +113,7 @@ form h2{
 
 .i i{
     color: #d9d9d9;
+    transition: 0.3s;    
 }
 
 .input-div > div{
@@ -175,5 +176,4 @@ a:hover{
 
 .btn:hover{
     background-position: right;
-
 }
