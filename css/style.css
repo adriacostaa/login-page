@@ -65,7 +65,7 @@ form h2{
     margin: 25px 0;
     padding: 5px 0;
     border-bottom: 2px solid #d9d9d9;
-        
+    transition: .3s;
 }
 .input-div:after, .input-div:before{
     content: '';
@@ -113,7 +113,7 @@ form h2{
 
 .i i{
     color: #d9d9d9;
-    transition: 0.3s;    
+    transition: .3s;    
 }
 
 .input-div > div{
@@ -128,7 +128,7 @@ form h2{
     transform: translateY(-50%);
     color: #999;
     font-size: 18px;
-    transition: 0.3s;
+    transition: .3s;  
 }
 .input{
     position: absolute;
@@ -142,15 +142,15 @@ form h2{
     padding: 0.5rem 0.7rem;
     font-size: 1.2rem;
     color: #555;
-    
 }
+
 a{
     display: block;
     text-align: right;
     text-decoration: none;
     color: #999;
     font-size: 0.9rem;
-    transition: 0.3s;
+    transition: .3s;
 }
 
 a:hover{
@@ -171,7 +171,7 @@ a:hover{
     color: #fff;
     text-transform: uppercase;
     background-size: 200%;
-    transition: 0.5s;
+    transition: .5s;
 }
 
 .btn:hover{

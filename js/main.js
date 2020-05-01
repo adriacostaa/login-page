@@ -1,4 +1,4 @@
-const inputs = document.querySelector('.input');
+const inputs = document.querySelectorAll('.input');
 
 function focusFunc(){
     let parent = this.parentNode.parentNode;
@@ -7,4 +7,5 @@ function focusFunc(){
 
 inputs.forEach(input => {
     input.addEventListener('focus', focusFunc);
+    
 });
